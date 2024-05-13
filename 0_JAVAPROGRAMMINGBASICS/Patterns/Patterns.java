@@ -53,6 +53,7 @@ public class Patterns{
     public static void k_pattern(int n) {
     	
     	int i,j;
+    	System.out.println("K Pattern");
     	for( i=n; i>=1;i--) {
     		for ( j=1; j<=i ;j++) {
     			System.out.print("*");
@@ -69,6 +70,22 @@ public class Patterns{
     		System.out.println();
 		}
     }
+    
+    public static void triangle(int n) {
+    	int i,j;
+    	System.out.println("Triangle");
+    	for (i=0;i<n;i++) {
+    		for(j=n-i;j>1;j--) {
+    			System.out.print(" ");
+    		}
+    		
+    		for (j=0; j<=i;j++) {
+    			System.out.print("* ");
+    		}
+    		
+    		System.out.println();
+    	}
+    }
 	
 	public static void main(String args[]) {
 		hollowRectangle(5, 5);
@@ -76,6 +93,7 @@ public class Patterns{
         inverted_halfPyramid_withNumbers(5);
         floyds_triangle(5);
         k_pattern(6);
+        triangle(6);
 
 	}
 	
