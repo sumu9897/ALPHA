@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+/Users/mohammadsumon/Documents/APNA-COLLEGE/Alpha/0_JAVAPROGRAMMINGBASICS/Patterns/.metadata/.plugins/org.eclipse.jdt.core
+2025940582.index
