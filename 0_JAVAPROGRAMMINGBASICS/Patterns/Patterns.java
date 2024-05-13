@@ -27,9 +27,35 @@ public class Patterns{
         }
     }
 	
+	public static void inverted_halfPyramid_withNumbers(int n) {
+        for(int i=1; i<=n; i++) {
+            //numbers
+            for(int j=1; j<=n-i+1; j++) {
+                System.out.print(j);
+            }
+            //spaces...
+            System.out.println();
+        }
+    }
+
+    public static void floyds_triangle(int n) {
+        int number = 1;
+        for(int i=1; i<=n; i++) {
+            //numbers
+            for(int j=1; j<=i; j++) {
+                System.out.print(number +" ");
+                number++;
+            }
+            //spaces ...
+            System.out.println();
+        }
+    }
+	
 	public static void main(String args[]) {
 		hollowRectangle(5, 5);
         inverted_rotated_halfPyramid(4);
+        inverted_halfPyramid_withNumbers(5);
+        floyds_triangle(5);
 
 	}
 	
